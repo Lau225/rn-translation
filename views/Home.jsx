@@ -23,6 +23,7 @@ export default function HomeScreen() {
                     }))
                 })
                 .catch(err => {
+                    console.log(err);
                     
                 })
         }
